@@ -17,10 +17,10 @@ body {
 }
 .portada {
     text-align: center;
-    width: 90vw;
+    width: 100vw;
 }
 .portada-video video {
-    width: 95vw;
+    width: 99vw;
     height: 98vh;
 }
 .presentacion {
@@ -205,12 +205,4 @@ body {
         height: 50vh;
         border-radius: 20px;
     }
-}
-
-@media screen and (max-width: 500px) {
-    
-    .numero {
-        font-size: 50px;
-    }
-
 }
