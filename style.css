@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mouse Memoirs", serif;
+    font-size: 1.5rem;
+}
+body {
+    background-color: black;
+    color: #fff;
+    overflow-x: hidden;
+    width: 100%;
+}
+.header {
+    height: auto;
+    width: 100vw;
+}
+.portada {
+    text-align: center;
+    width: 90vw;
+}
+.portada-video video {
+    width: 95vw;
+    height: 98vh;
+}
+.presentacion {
+    justify-self: center;
+    text-align: center;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 20px 0;
+    width: 70vw;
+}
+.presentacion h1 {
+    font-size: 100px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    color: palevioletred;
+}
+.presentacion p {
+    font-size: 40px;
+}
+.bxs-music {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 8px;
+    border: 3px solid #d8709354;
+    border-radius: 50%;
+    background-color: #ffffff25;
+    z-index: 1;
+}
+.bx-chevrons-down {
+    position: absolute;
+    bottom: 20px;
+    left: 48%;
+    font-size: 60px;
+}
+.cuenta-regresiva {
+    text-align: center;
+    padding: 60px;
+}
+.cuenta-regresiva h4 {
+    font-size: 2em;
+    font-weight: 500;
+    padding-bottom: 40px;
+    color: palevioletred;
+}
+.fecha {
+    display: flex;
+    justify-content: center;
+}
+.fecha div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+.horas, 
+.minutos, 
+.segundos {
+    border-left: 1px solid white;
+}
+.numero {
+    font-size: 70px;
+    color: palevioletred;
+}
+.letra {
+    font-size: 30px;
+    font-weight: 100;
+}
+.main {
+    background-color: rgba(222, 222, 222, 0.11);
+}
+.estructura {
+    text-align: center;
+    position: relative;
+    padding: 30px;
+}
+.estructura h4 {
+    font-size: 3rem;
+    font-weight: 100;
+    color: palevioletred;
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+}
+.estructura h5 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: palevioletred;
+    padding: 20px 0;
+}
+.estructura p {
+    padding-bottom: 20px;
+}
+.estructura a {
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: palevioletred;
+    border: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+.adicionales {
+    padding: 30px 0;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.musica, 
+.vestimenta,
+.regalos {
+    background-color: rgba(240, 248, 255, 0.26);
+    padding: 30px;
+    border-radius: 20px;
+    width: 30vw;
+}
+.musica i, 
+.vestimenta i,
+.regalos i {
+    font-size: 50px;
+}
+.vestimenta p,
+.regalos p {
+    padding-bottom: 60px;
+} 
+.footer {
+    text-align: center;
+    padding: 30px;
+    
+}
+.footer h3 {
+    font-size: 2em;
+    font-weight: 200;
+    color: palevioletred;
+}
+.footer h5 {
+    font-weight: 100;
+}
+.footer-a {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 120px;
+}
+.footer-a a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    padding: 30px;
+}
+.footer iframe {
+    width: 50vw;
+    height: 60vh;
+    border-radius: 20px;
+}
+@media screen and (max-width: 991px) {
+    .adicionales {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        padding-top: 70px;
+    }
+    .musica, 
+    .vestimenta,
+    .regalos {
+        width: 70vw;
+    }
+    .musica button, 
+    .vestimenta button,
+    .regalos button {
+        width: auto;
+    }
+    .footer h5 {
+        padding-bottom: 15px;
+    }
+    .footer-a {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-right: 0;
+        border-top: 1px solid white;
+    }
+    .footer iframe {
+        width: 80vw;
+        height: 50vh;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .numero {
+        font-size: 50px;
+    }
+
+}
