@@ -20,8 +20,8 @@ body {
     width: 100vw;
 }
 .portada-video video {
-    width: 99vw;
-    height: 98vh;
+    width: 100vw;
+    height: 99vh;
 }
 .presentacion {
     justify-self: center;
