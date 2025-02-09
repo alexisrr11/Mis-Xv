@@ -241,8 +241,13 @@ body {
     .fecha div {
         padding: 0 20px;
     }
-    .numero,
+    .numero {
+        font-size: 50px;
+    }
     .letra {
         font-size: 35px;
+    }
+    .fecha div {
+        padding: 0 15px;
     }
 }
