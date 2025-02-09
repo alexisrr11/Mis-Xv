@@ -1,6 +1,7 @@
 :root {
     --color-primary: rgba(50, 102, 205, 1);
     --color-secondary: rgba(15, 30, 61, 1);
+    --color-terciario: rgba(17, 79, 204);
 }
 * {
     margin: 0;
@@ -147,12 +148,12 @@ body {
 .musica h5, 
 .vestimenta h5,
 .regalos h5 {
-    color: var(--color-secondary);
+    color: var(--color-terciario);
 }
 .musica a, 
 .vestimenta a,
 .regalos a {
-    background-color: var(--color-secondary);
+    background-color: var(--color-terciario);
 }
 .musica, 
 .vestimenta,
@@ -230,5 +231,18 @@ body {
         width: 80vw;
         height: 50vh;
         border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cuenta-regresiva {
+        padding: 20px;
+    }
+    .fecha div {
+        padding: 0 20px;
+    }
+    .numero,
+    .letra {
+        font-size: 35px;
     }
 }
