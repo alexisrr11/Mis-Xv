@@ -1,3 +1,7 @@
+:root {
+    --color-primary: rgba(50, 102, 205, 1);
+    --color-secondary: rgba(15, 30, 61, 1);
+}
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +10,7 @@
     font-size: 1.5rem;
 }
 body {
-    background-color: black;
+    background-color: var(--color-secondary);
     color: #fff;
     overflow-x: hidden;
     width: 100%;
@@ -20,8 +24,8 @@ body {
     width: 100vw;
 }
 .portada-video video {
-    width: 100vw;
-    height: 99vh;
+    width: 99vw;
+    height: 98vh;
 }
 .presentacion {
     justify-self: center;
@@ -35,7 +39,7 @@ body {
     font-size: 100px;
     font-weight: 100;
     padding-bottom: 20px;
-    color: palevioletred;
+    color: var(--color-primary);
 }
 .presentacion p {
     font-size: 40px;
@@ -45,7 +49,7 @@ body {
     bottom: 20px;
     right: 20px;
     padding: 8px;
-    border: 3px solid #d8709354;
+    border: 3px solid rgba(50, 102, 205, 0.281);
     border-radius: 50%;
     background-color: #ffffff25;
     z-index: 1;
@@ -76,7 +80,7 @@ body {
     font-size: 2em;
     font-weight: 500;
     padding-bottom: 40px;
-    color: palevioletred;
+    color: var(--color-primary);
 }
 .fecha {
     display: flex;
@@ -94,7 +98,7 @@ body {
 }
 .numero {
     font-size: 70px;
-    color: palevioletred;
+    color: var(--color-primary);
 }
 .letra {
     font-size: 30px;
@@ -111,14 +115,14 @@ body {
 .estructura h4 {
     font-size: 3rem;
     font-weight: 100;
-    color: palevioletred;
+    color: var(--color-primary);
     padding: 20px 0;
     border-bottom: 1px solid white;
 }
 .estructura h5 {
     font-size: 2rem;
     font-weight: 500;
-    color: palevioletred;
+    color: var(--color-primary);
     padding: 20px 0;
 }
 .estructura p {
@@ -129,7 +133,7 @@ body {
     width: 300px;
     border-radius: 20px;
     color: #fff;
-    background-color: palevioletred;
+    background-color: var(--color-primary);
     border: none;
     list-style-type: none;
     text-decoration: none;
@@ -139,6 +143,16 @@ body {
     display: flex;
     gap: 50px;
     justify-content: center;
+}
+.musica h5, 
+.vestimenta h5,
+.regalos h5 {
+    color: var(--color-secondary);
+}
+.musica a, 
+.vestimenta a,
+.regalos a {
+    background-color: var(--color-secondary);
 }
 .musica, 
 .vestimenta,
@@ -156,7 +170,7 @@ body {
 .vestimenta p,
 .regalos p {
     padding-bottom: 60px;
-} 
+}
 .footer {
     text-align: center;
     padding: 30px;
@@ -165,7 +179,7 @@ body {
 .footer h3 {
     font-size: 2em;
     font-weight: 200;
-    color: palevioletred;
+    color: var(--color-secondary);
 }
 .footer h5 {
     font-weight: 100;
