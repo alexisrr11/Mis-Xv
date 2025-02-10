@@ -46,13 +46,13 @@ body {
     font-size: 40px;
 }
 .bxs-music {
-    position: absolute;
+    position: fixed;
     bottom: 20px;
     left: 20px;
     padding: 8px;
-    border: 3px solid rgba(50, 102, 205, 0.281);
+    border: 3px solid rgba(0, 255, 255, 0.473);
     border-radius: 50%;
-    background-color: #ffffff25;
+    background-color: rgba(0, 0, 0, 0.664);
     z-index: 1;
 }
 .bx-chevrons-down {
@@ -260,14 +260,14 @@ body {
         padding: 0 15px;
     }
     .musica {
-        height: 50vh;
-        width: 90vw;
+        height: 60vh;
+        width: 95vw;
         padding: 0px;
     } 
     .vestimenta,
     .regalos {
         height: auto;
-        width: 90vw;
+        width: 95vw;
         padding: 0px;
     }
 }
