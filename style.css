@@ -259,4 +259,15 @@ body {
     .fecha div {
         padding: 0 15px;
     }
+    .musica {
+        height: 60vh;
+        width: 90vw;
+        padding: 0px;
+    } 
+    .vestimenta,
+    .regalos {
+        height: auto;
+        width: 90vw;
+        padding: 0px;
+    }
 }
