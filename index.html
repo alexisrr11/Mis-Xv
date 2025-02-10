@@ -16,7 +16,7 @@
             <i class='bx bxs-music' style='color:rgba(50, 102, 205, 0.281)'></i>
             <i class='bx bx-chevrons-down' style='color:rgba(50, 102, 205, 1)'></i>
             <div class="portada-video">
-                <video src="images/Video del XV.mp4" autoplay loop muted playsinline></video>
+                <video src="images/Video de Xv.mp4" autoplay loop muted playsinline></video>
             </div>
         </div>
     </header>
@@ -56,35 +56,38 @@
             <h4>Fiesta</h4>
             <h5>Día</h5>
             <p>Sábado, 14 de junio - 21hs</p>
-            <a href="">Agendar</a>
+            <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Mi+Evento+Especial&dates=20250614T210000-0300/20250615T050000-0300&details=No+te+lo+pierdas&location=Mi+Ubicación" target="_blank">Agendar</a>
             <div class="asistencia">
                 <h5>Lugar</h5>
-                <p>Salón Los Alpes</p>
-                <a href="">Confirmar asistencia</a>
+                <p>Tato's Recepciones</p>
+                <a href="https://api.whatsapp.com/send?phone=541121903145&text=¡Hola,%20quiero%20confirmar%20mi%20asistencia%20al%20evento!">Confirmar asistencia</a>
             </div>
             <div class="direccion">
                 <h5>Dirección</h5>
-                <p>Av. Grandes Soldados</p>
-                <a href="">¿Cómo llegar?</a>
+                <p>Cangallo 351, Temperley</p>
+                <a href="#direIframe">¿Cómo llegar?</a>
             </div>
             <div class="adicionales">
                 <div class="musica">
                     <h5>Música</h5>
-                    <i class='bx bxs-volume-full' style='color:rgba(17, 79, 204)'></i>
+                    <i class='bx bx-volume-full' style='color:rgba(17, 79, 204)'></i>
                     <p>¿Cuál es la canción que no puede faltar en la fiesta?</p>
-                    <a href="">Sugerir canción</a>
+                    <a href="https://api.whatsapp.com/send?phone=541121903145&text=Hola,%20quiero%20sugerir%20una%20canción%20para%20el%20evento.%20Mi%20elección%20es:%20">Sugerir canción</a>
                 </div>
                 <div class="vestimenta">
                     <h5>Vestimenta</h5>
                     <i class='bx bx-closet' style='color:rgba(17, 79, 204)'></i>
                     <p>Orientación para el vestuario</p>
-                    <a href="">Ver más</a>
+                    <Button id="ver">Ver más</Button>
+                    <p id="nuevoTxtVer" style="padding-top: 20px;"></p>
                 </div>
                 <div class="regalos">
                     <h5>Regalos</h5>
                     <i class='bx bx-gift' style='color:rgba(17, 79, 204)'></i>
                     <p>Si deseas regalarme algo</p>
-                    <a href="">Número de CBU</a>
+                    <button id="CBU">N° CBU y Alias MP</button>
+                    <p id="N°CBU" style="padding: 0;"></p>
+                    <p id="Alias" style="padding: 0;"></p>
                 </div>
             </div>
         </div>
@@ -94,11 +97,11 @@
         <h3>Sofía</h3>
         <h5>Mis 15 años</h5>
         <div class="footer-a">
-            <a href="">Confirmar asistencia a fiesta</a>
-            <a href="">Sugerir alguna canción</a>
+            <a href="https://api.whatsapp.com/send?phone=541121903145&text=¡Hola,%20quiero%20confirmar%20mi%20asistencia%20al%20evento!">Confirmar asistencia a fiesta</a>
+            <a href="https://api.whatsapp.com/send?phone=541121903145&text=Hola,%20quiero%20sugerir%20una%20canción%20para%20el%20evento.%20Mi%20elección%20es:%20">Sugerir alguna canción</a>
             <a href="">Agendar fiesta</a>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4632.337196861183!2d-58.39676302417554!3d-34.817084436450685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd360c437023f%3A0x845b868d5b97c6f9!2sJuan%20Manuel%20Prieto%20y%20Av.%20Hip%C3%B3lito%20Yrigoyen!5e0!3m2!1ses!2sar!4v1738814243470!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe id="direIframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.247000347715!2d-58.3907083501278!3d-34.77455670363019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2de99782047%3A0xbd8da7aaf6a9948a!2sCangallo%20351%2C%20B1834%20Temperley%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1739159685946!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
 
     <script src="javaScript.js"></script>
