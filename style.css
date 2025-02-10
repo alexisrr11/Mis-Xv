@@ -150,15 +150,24 @@ body {
 .regalos h5 {
     color: var(--color-terciario);
 }
-.musica a, 
+.musica a,
 .vestimenta a,
 .regalos a {
     background-color: var(--color-terciario);
 }
+.regalos button,
+.vestimenta button {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: var(--color-terciario);
+    border: none;
+}
 .musica, 
 .vestimenta,
 .regalos {
-    background-color: rgba(240, 248, 255, 0.26);
+    background-color: rgba(240, 248, 255, 0.432);
     padding: 30px;
     border-radius: 20px;
     width: 30vw;
