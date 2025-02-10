@@ -27,13 +27,79 @@ const iconoMusica = document.querySelector(".bxs-music");
 
 iconoMusica.addEventListener("click", function () {
     if (video.muted) {
-        video.muted = false; // Activar sonido
-        iconoMusica.style.color = "rgba(50, 102, 205, 1)"; // Cambiar color para indicar que está activado
+        video.muted = false; // Activar
+        iconoMusica.style.color = "rgba(50, 102, 205, 1)";
         iconoMusica.style.border = "1px solid rgba(50, 102, 205, 1)"
     } else {
         video.muted = true; // Silenciar
-        iconoMusica.style.color = "rgba(50, 102, 205, 0.281)"; // Volver al color original
+        iconoMusica.style.color = "rgba(50, 102, 205, 0.281)";
         iconoMusica.style.border = "1px solid rgba(50, 102, 205, 0.281)"
     }
 });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const boton = document.getElementById("ver");
+    const nuevoTextoElemento = document.getElementById("nuevoTxtVer");
+    const textoAMostrar = "'🤵Elegante💃'";
+
+    function escribirTexto(elemento, texto) {
+        let i = 0;
+        elemento.textContent = "";
+        const intervalo = setInterval(() => {
+            if (i < texto.length) {
+                elemento.textContent += texto[i];
+                i++;
+            } else {
+                clearInterval(intervalo);
+            }
+        }, 50); 
+    }
+
+    boton.addEventListener("click", () => {
+        escribirTexto(nuevoTextoElemento, textoAMostrar);
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const boton = document.getElementById("CBU");
+    const NCBUElemento = document.getElementById("N°CBU");
+    const aliasElemento = document.getElementById("Alias");
+
+    const textoCBU = "Número de CBU: 0000003100051271684501";
+    const textoAlias = "AliasMP:sofia.del.gomez";
+
+    function escribirTexto(elemento, texto) {
+        let i = 0;
+        elemento.textContent = ""; 
+        const intervalo = setInterval(() => {
+            if (i < texto.length) {
+                elemento.textContent += texto[i];
+                i++;
+            } else {
+                clearInterval(intervalo);
+            }
+        }, 50); 
+    }
+
+    boton.addEventListener("click", () => {
+        escribirTexto(NCBUElemento, textoCBU);
+        setTimeout(() => {
+            escribirTexto(aliasElemento, textoAlias);
+        }, textoCBU.length * 50);
+    });
+});
+
+
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+  
+        const target = document.querySelector(this.getAttribute("href"));
+        target.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+    });
+  });
