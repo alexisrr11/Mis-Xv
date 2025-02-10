@@ -28,12 +28,12 @@ const iconoMusica = document.querySelector(".bxs-music");
 iconoMusica.addEventListener("click", function () {
     if (video.muted) {
         video.muted = false; // Activar
-        iconoMusica.style.color = "rgba(0, 255, 255, 0.473)";
-        iconoMusica.style.border = "3px solid rgba(0, 255, 255, 0.473)"
+        iconoMusica.style.color = "rgba(0, 255, 255)";
+        iconoMusica.style.border = "3px solid rgba(0, 255, 255)"
     } else {
         video.muted = true; // Silenciar
-        iconoMusica.style.color = "rgb(0, 255, 255)";
-        iconoMusica.style.border = "3px solid rgb(0, 255, 255)"
+        iconoMusica.style.color = "rgba(0, 255, 255, 0.473)";
+        iconoMusica.style.border = "3px solid rgba(0, 255, 255, 0.473)"
     }
 });
 });
