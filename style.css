@@ -261,13 +261,13 @@ body {
     }
     .musica {
         height: 60vh;
-        width: 90vw;
+        width: 95vw;
         padding: 0px;
     } 
     .vestimenta,
     .regalos {
         height: auto;
-        width: 90vw;
+        width: 95vw;
         padding: 0px;
     }
 }
