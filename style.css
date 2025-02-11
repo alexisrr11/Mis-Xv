@@ -262,12 +262,15 @@ body {
     .musica {
         height: 50vh;
         width: 95vw;
-        padding: 0px;
+        padding: 0;
     } 
     .vestimenta,
     .regalos {
         height: auto;
         width: 95vw;
-        padding: 0px;
+        padding: 0;
+    }
+    .regalos {
+        padding-bottom: 40px;
     }
 }
