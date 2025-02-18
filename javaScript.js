@@ -14,7 +14,7 @@ function actualizarCuentaRegresiva() {
         document.getElementById("minutos").textContent = minutos.toString().padStart(2, "0");
         document.getElementById("segundos").textContent = segundos.toString().padStart(2, "0");
     } else {
-        document.querySelector(".cuenta-regresiva").innerHTML = "<h4>¡El gran día ha llegado!</h4>";
+        document.querySelector(".cuenta-regresiva").innerHTML = "<h4>¡Felices 15 Años Sofi!</h4><br><h4>¡El gran día ha llegado!</h4>";
     }
 }
 
